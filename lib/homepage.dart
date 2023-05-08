@@ -19,7 +19,7 @@ class Home extends StatelessWidget {
           Text("Welcome"),
           Text("Goodbye"),
           ElevatedButton(
-            child: Text("Click"),
+            child: Text("pres"),
             onPressed: () {
               Navigator.push(
                   context, MaterialPageRoute(builder: (context) => Second()));
